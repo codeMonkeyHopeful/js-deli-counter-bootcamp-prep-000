@@ -1,6 +1,11 @@
-function takeANumber (arr, name) {
+/*function takeANumber (arr, name) {
   arr.push(name);
   return `Welcome, ${name}. You are number ${arr.length} in line.`
+}*/
+
+function takeANumber (arr) {
+  arr.push(arr.length);
+  return `Welcome you are number ${arr.indexOf(x)+1}`
 }
 
 function nowServing(arr) {
