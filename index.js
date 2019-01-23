@@ -3,9 +3,11 @@
   return `Welcome, ${name}. You are number ${arr.length} in line.`
 }*/
 
+var i = 1;
 function takeANumber (arr) {
-  arr.push(arr.length);
-  return `Welcome you are number ${arr.indexOf(x)+1}`
+  arr.push(i);
+  console.log( `Welcome you are number ${i}`)
+  i++;
 }
 
 function nowServing(arr) {
